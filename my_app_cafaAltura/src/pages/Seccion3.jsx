@@ -36,6 +36,7 @@ export const Seccion3 = () => {
                 imgcard={imgRegals}
                 title={'Descuentos y beneficios'} 
                 paragraph={'Cada dos meses, te regalamos una bolsa de un nuevo origen sorpresa, para que lo descubras junto a nosotros.'}   />
+                
             </div>
 
 

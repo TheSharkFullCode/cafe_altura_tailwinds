@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 export const NavbarRoutes = () => {
 
   return (
-    <div className='bg-[#2B2A2B] text-[#FFFFFF]  px-[3px] py-[2px] flex  justify-center gap-[24px] items-center text-[14px] font-semibold '>
+    <div className='bg-[#2B2A2B] text-[#FFFFFF]  px-[3px] py-[2px] flex  justify-center gap-[28px] items-center text-[14px] font-semibold '>
 
-        <Link to="/"> Tienda </Link>
-        <Link to="/"> Suscripción  </Link>
-        <Link to="/"> Para empresas  </Link>
-        <Link to="/"> Sobre nosotros  </Link>
-        <Link to="/"> Contacto  </Link>
+        <Link to="/tienda"> Tienda </Link>
+        <Link to="/Suscripción"> Suscripción  </Link>
+        <Link to="/empresas"> Para empresas  </Link>
+        <Link to="/about"> Sobre nosotros  </Link>
+        <Link to="/contact"> Contacto  </Link>
 
     </div>
     

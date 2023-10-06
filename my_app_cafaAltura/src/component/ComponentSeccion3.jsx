@@ -7,13 +7,12 @@ const ComponentSeccion3 = ({title,paragraph,imgcard,}) => {
 
   return (
 
-   <div className='w-[316px] border-[1px]  h-[232px] rounded flex bg-[white] flex-col  items-center justify-evenly p-6 gap-6' >
-        <div className='w-[64px] h-[64px]    border-[1px] rounded bg-[#2A5B45] flex items-center justify-center '>
+   <div className='w-[316px]  h-[232px] rounded flex bg-[white] flex-col  items-center justify-evenly ' >
+        <div className='bg-[#2A5B45] w-[64px] h-[64px] flex justify-center items-center rounded-[15px] '>
 
-            <img src={imgcard} alt="imgCarta" />
+            <img src={imgcard} alt="imgCarta" className='w-[25px] h-[25px]  '  />
         </div>
             
-        {/* <div className='flex-col justify-center items-center'> */}
 
         <div className='flex flex-col justify-center items-center'>
             <span className='text-[18px] font-semibold  leading-[24px] text-[#2B2A2B;]'>{title}</span>
@@ -21,7 +20,6 @@ const ComponentSeccion3 = ({title,paragraph,imgcard,}) => {
 
             <span className='text-[14px] font-normal leading-[16px] flex justify-center text-center '>{paragraph}</span>
 
-        {/* </div> */}
    </div>
 
  

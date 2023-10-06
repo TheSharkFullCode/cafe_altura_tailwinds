@@ -12,7 +12,7 @@ export const Navbar = ({}) => {
 
   return (
 
-    <div className='flex  items-center bg-[#2B2A2B]  justify-around  '>
+    <div className='flex  items-center bg-[#2B2A2B]  justify-around h-[64px] '>
 
     <Link to="/" className='cursor-pointer'>  <NavbarLogo/>  </Link>
 

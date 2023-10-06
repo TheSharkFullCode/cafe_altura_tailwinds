@@ -2,18 +2,18 @@ import React from 'react'
 
 import { HeroPage } from '../component/HeroPage'
 import { Seccion3 } from './Seccion3'
-import Seccionproductos from '../component/Seccionproductos'
 import { Componentproduct } from '../component/Componentproduct'
+import { SeccionFaQ } from './SeccionFaQ'
 
 const HomePage = () => {
 
   return (
+
       <>
         <HeroPage/>
         <Seccion3/>
-        <Seccionproductos/>
-        <Componentproduct/>
-        
+        <Componentproduct number={4}/>
+        <SeccionFaQ/>
       </>
 
       
