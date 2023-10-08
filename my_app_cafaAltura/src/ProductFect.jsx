@@ -17,7 +17,7 @@ export const ProductFect = () => {
 
   return (
     <>
-    <div class="h-[980px] ">
+    <div className="h-[940px] ">
 
             <Componentproduct number={8}/>
     </div>

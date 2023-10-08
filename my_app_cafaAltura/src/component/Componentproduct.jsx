@@ -15,7 +15,7 @@ import Seccionproductos from "./Seccionproductos";
 export const Componentproduct = ({number,}) => {    
   
   const [coffes, setCoffes] = useState([]);
-
+  const [text,setText]= useState('Novedades')
 
     useEffect(()=>{
 
@@ -28,19 +28,19 @@ export const Componentproduct = ({number,}) => {
  
   return (
 
-    <div className="  flex flex-col px-[40px] gap-[40px] items-center h-[580px] bg-[#FFFFFF]    "> 
+    <div className="  flex flex-col px-[40px] gap-[40px] items-center h-[580px] bg-[#FFFFFF]  "> 
 
         <div className="flex justify-center mt-[40px]">
-            <h2 className=" font-medium text-[24px] leading-6 text-[#2A5B45]">Novedades</h2>
+            <h2 className=" font-medium text-[24px] leading-6 text-[#2A5B45]">{text}</h2>
         </div>
 
-        <div className={'flex flex-wrap  gap-[17px]  '}>
+        <div className={'flex flex-wrap  gap-[17px] '}>
 
         {fourcoffe.map((coffes)=>{
           
           return (
             
-            <Seccionproductos  key={coffes._id} img={coffes.img_url} name={coffes.brand} price={`${coffes.price},00€`} text={'Últimos orígenes'} />
+            <Seccionproductos  key={coffes._id} img={coffes.img_url} name={coffes.brand} price={`${coffes.price},00€`} />
             
             )
           })}
