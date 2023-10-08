@@ -5,6 +5,7 @@ import { Seccion3 } from './Seccion3'
 import { Componentproduct } from '../component/Componentproduct'
 import { SeccionFaQ } from './SeccionFaQ'
 import Coffestar from '../component/Seccion6_Sala_star/Coffestar'
+import { Formulary } from '../component/Seccion_Formulario/Formulary'
 
 const HomePage = () => {
 
@@ -16,6 +17,7 @@ const HomePage = () => {
         <Componentproduct number={4}/>
         <SeccionFaQ/>
         <Coffestar/>
+        <Formulary/>
       </>
 
       
