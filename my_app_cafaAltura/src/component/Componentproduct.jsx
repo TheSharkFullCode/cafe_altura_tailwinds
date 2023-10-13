@@ -15,6 +15,7 @@ import Seccionproductos from "./Seccionproductos";
 export const Componentproduct = ({number,}) => {    
   
   const [coffes, setCoffes] = useState([]);
+  
   const [text,setText]= useState('Novedades')
 
     useEffect(()=>{
